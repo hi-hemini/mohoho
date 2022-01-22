@@ -17,6 +17,10 @@ a {
     justify-content: center;
 }
 
+.justify-spacebtw {
+    justify-content: space-between;
+}
+
 .align-center {
     align-items: center;
 }
