@@ -1,3 +1,37 @@
-body {
-    
+a {
+    color: blue;
+    line-height: 24px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.link-category {
+    width: 300px;
+}
+
+.button-form {
+    width: 80px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
