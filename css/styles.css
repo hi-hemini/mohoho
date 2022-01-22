@@ -1,20 +1,12 @@
-
-.toggle {
-    padding-bottom: 20px;
-}
-
-.toggle-title {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.toggle-content {
-    font-size: 16px;
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     color: blue;
-    line-height: 24px;
+    line-height: 34px;
 }
 
 .flex {
@@ -35,6 +27,23 @@ a {
 
 .row {
     flex-direction: row;
+}
+
+
+/* custom */
+.toggle {
+    padding-bottom: 20px;
+}
+
+.toggle-title {
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.toggle-content {
+    font-size: 14px;
+    padding-left: 24px;
 }
 
 .link-category {
