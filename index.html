@@ -22,7 +22,7 @@
     </div>
 
     <!-- Hejin Hours -->
-    <div class="flex justify-spacebtw" style="background-color: #F5F5F5; padding: 0px 240px;">
+    <div class="flex justify-spacebtw hours-map-padding pc-row-mobile-column" style="background-color: #F5F5F5;">
         <div>
             <h2 style="margin-top: 0; padding-top: 20px;">Opening/Closing Hours</h2>
             <details class="toggle">
@@ -145,16 +145,20 @@
             </details>
         </div>
         <!-- Map -->
-        <div class="flex" style="padding-top: 80px;">
-            <a href="https://map.mtholyoke.edu/?_ga=2.112031879.2018194981.1642714790-490873678.1640903158" target='_blank'>
+        <div class="map-padding flex column">
+            <a class="flex justify-center" href="https://map.mtholyoke.edu/?_ga=2.112031879.2018194981.1642714790-490873678.1640903158" target='_blank'>
                 <img src="resources/images/campus-map.png" alt="campus image"
                 width="320px" style="border-radius: 8px;"/>
             </a>
+            <p class="pc-right-mobile-center mobile-only-padding" style="font-size: 10px; color: gray;">Mount Holyoke College <br />
+                50 College Street <br />
+                South Hadley, MA 01075 <br />
+                Tel) 413-538-2000</p>
         </div>
     </div>
 
     <!-- First row -->
-    <div class="flex row justify-center" style="padding-top: 32px;">
+    <div class="flex pc-row-mobile-column justify-center link-padding" style="padding-top: 32px;">
         <!-- Menus -->
         <div class="link-category flex column">
             <h2>Menus</h2>
@@ -193,7 +197,7 @@
     </div>
 
     <!-- Second row -->
-    <div class="flex row justify-center">
+    <div class="flex pc-row-mobile-column justify-center link-padding">
         <!-- Student Employment -->
         <div class="link-category flex column">
             <h2>Student Employment</h2>
@@ -214,13 +218,14 @@
             <a href="https://www.mtholyoke.edu/fleet/airport-shuttles" target='_blank'>Student airport shuttles</a>
             <a href="https://www.mtholyoke.edu/orientation/to-do-list" target='_blank'>Orientation</a>
             <a href="https://www.mtholyoke.edu/global/international_students/guidebook" target='_blank'>Guidebook for international students</a>
+            <a href="https://embark.mtholyoke.edu/DSL/care-/" target='_blank'>Student support</a>
         </div>
     </div>
 
     <!-- submit form for additional info request -->
-    <div class="flex justify-center align-center" style="padding-top: 64px;">
-        <p>If you want other links or information on Mohoho, please let us know!</p>
-        <a href="https://forms.gle/ZD7knfyGmcFV8Sje6" target='_blank'><button class="button-form" style="margin-left: 8px;">click</button></a>
+    <div class="request-form">
+        <p class="request-text">If you want other links or information on <strong>Mohoho</strong>, please let us know!</p>
+        <a href="https://forms.gle/ZD7knfyGmcFV8Sje6" target='_blank'><button class="button-form">Click</button></a>
     </div>
     
     <footer class="flex justify-center" style="color: lightgray; padding-top: 64px; padding-bottom: 32px; font-size: 12px;">Copyright @ 2022 Hejin and Joni</footer>
