@@ -15,8 +15,27 @@
 </head>
 
 <body>
-    <!-- NavBar -->
 
+    <!-- firebase setting -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-storage.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBfOcCTTz6Xnib5qTDgu4IzIghuQmSs9Hg",
+            authDomain: "mohoho-info.firebaseapp.com",
+            projectId: "mohoho-info",
+            storageBucket: "mohoho-info.appspot.com",
+            messagingSenderId: "28705069286",
+            appId: "1:28705069286:web:fa25fb4a2f946308558327",
+            measurementId: "G-1YZ5W0PJ1E"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <!-- NavBar -->
     <div class="navbar">
         <img class="logo" src="resources/images/logo-black.png" alt="Mohoho logo" />
         <img class="animals" src="resources/images/mhc-animals.png" alt="MHC class animals" />
@@ -117,7 +136,7 @@
                     <ul>
                         <li>Monday-Friday: 8:30 am - 5 pm</li>
                     </ul>
-                    <a href="https://www.mtholyoke.edu/mailandcopycenter target='_blank'">Details</a>
+                    <a href="https://www.mtholyoke.edu/mailandcopycenter" target='_blank'>Details</a>
                 </div>
             </details>
             <details class="toggle">
