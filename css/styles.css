@@ -44,10 +44,18 @@ a {
 /* custom */
 
 .navbar {
-    padding: 10px 200px;
+    padding: 10px 210px;
     height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.hours-map-padding {
+    padding: 0px 210px;
+}
+
+.map-padding {
+    padding-top: 40px;
 }
 
 .toggle {
@@ -69,7 +77,15 @@ a {
     width: 300px;
 }
 
+.request-form {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button-form {
+    margin-left: 8px;
     width: 80px;
     height: 30px;
     background-color: #5b9db3;
@@ -81,15 +97,78 @@ a {
     font-weight: 700;
 }
 
+.pc-row-mobile-column{
+    flex-direction: row;
+}
+
+.pc-right-mobile-center {
+    text-align: right;
+}
+
+
 @media screen and (max-width:960px) {
     .animals {
         display: none;
     }
 
     .navbar {
-        padding: 10px 200px;
+        padding: 10px 0px;
         height: 50px;
         display: flex;
         justify-content: center;
     }
+
+    .hours-map-padding {
+        padding: 0px 32px;
+    }
+
+    .map-padding {
+        padding: 0px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pc-row-mobile-column{
+        flex-direction: column;
+    }
+
+    .pc-right-mobile-center {
+        text-align: center;
+    }
+
+    .mobile-only-padding {
+        padding-top: 12px;
+    }
+
+    .link-padding {
+        padding-left: 32px;
+    }
+
+    .request-form {
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .request-text {
+        text-align: center;
+    }
+
+    .button-form {
+        width: 80px;
+        height: 30px;
+        background-color: #5b9db3;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    
 }
