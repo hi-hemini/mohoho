@@ -1,4 +1,4 @@
 # mohoho
-MHC essential website
+MHC essential website with links and info
 
 https://mohoho-info.web.app/
